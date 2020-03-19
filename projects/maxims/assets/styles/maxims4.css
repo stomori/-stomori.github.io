@@ -1,0 +1,79 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    background-image: url(../imgs/maxim-four.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: mediumpurple;
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:mediumpurple;
+}
+
+a:visited{
+    color: mediumpurple;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    animation-name: rock;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+.nav-tem{
+    color: mediumpurple;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: white;
+}
+
+#current-page{
+    
+    color: white;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@keyframes rock{
+    to{
+        transform: rotateX(1000deg)
+    }
+    
+}

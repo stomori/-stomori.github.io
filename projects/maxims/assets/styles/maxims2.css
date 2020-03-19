@@ -1,0 +1,82 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    font-family: 'Anton' ;
+    background-image: url(../imgs/maxim-two-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: whitesmoke;
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+.nav-tem{
+    color: white;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: #911B06;
+}
+
+@keyframes rotate {
+
+    0% {
+        transform: rotateY(200deg)
+
+    }
+
+    100% {
+
+       
+    }
+
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

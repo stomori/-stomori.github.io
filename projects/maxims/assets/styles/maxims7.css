@@ -1,0 +1,94 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    background-image: url(../imgs/maxim-seven.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    font-family: bebas-neue, sans-serif;
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color: black;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 80px;
+
+}
+
+.spin { 
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    transform-style: preserve-3d;
+    text-align: center;
+    display: block;
+}
+
+.nav-tem{
+    color: aqua;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+#current-page{
+    
+    color: darkolivegreen;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@keyframes spinner{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(-360deg);
+    }
+    0% { 
+    transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(-180deg);
+    }
+}

@@ -1,0 +1,84 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    font-family: 'Josefin Sans' ;
+    background-image: url(../imgs/maxim-three.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: whitesmoke;
+
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 80px;
+    animation-name: flip;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+.nav-tem{
+    color: white;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+#current-page{
+    
+    color: darkgoldenrod;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+@keyframes flip{
+    to{
+        
+        transform: rotateX(90deg)
+    }
+    
+}

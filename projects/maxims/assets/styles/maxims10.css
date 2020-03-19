@@ -1,0 +1,83 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    background-image: url(../imgs/maxim-ten.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: palevioletred;
+    font-family: bebas-neue, sans-serif;
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:lemonchiffon;
+}
+
+a:visited{
+    color: lemonchiffon;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+.nav-tem{
+    color: lemonchiffon;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: white;
+}
+
+#current-page{
+    
+    color: white;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+@keyframes rotate {
+
+    0% {
+        transform: rotateY(200deg)
+
+    }
+
+    100% {
+
+       
+    }

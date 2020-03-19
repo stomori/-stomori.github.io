@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Permanent Marker';
+    background-image: url(../imgs/maxim-nine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: palevioletred;
+    
+}
+
+
+a:link {
+
+    text-decoration: none;
+    color: darkred;
+}
+
+a:visited {
+    color: darkred;
+}
+
+#nav {
+    text-decoration: none;
+
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+ .fade {
+        animation: ease 10s;
+    }
+
+.nav-tem {
+    color: darkred;
+}
+
+#current-nav-item {
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: white;
+}
+
+#current-page {
+
+    color: white;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+   
+@keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        0% {
+            opacity: 0;
+        }
+    }
+
+
+
+    

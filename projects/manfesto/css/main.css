@@ -1,0 +1,88 @@
+#container {
+    width: 50%;
+    margin: 0 auto;
+} 
+body {
+     background-color: navy;
+ }
+p, h1 {text-align: center}
+ #Buzzcut {
+     color: darkgoldenrod;
+     font-size: 50px
+ }
+
+
+ #lineOne {
+     color: wheat;
+     font-size: 30px;
+ }
+
+ #flame {
+     color: red
+ }
+
+ #lineTwo {
+     font-size: 30px;
+     color: yellow;
+ }
+
+ #lineThree {
+     font-size: 30px;
+     color: aquamarine
+ }
+
+ #lineFour {
+     font-size: 30px;
+     color: darkgoldenrod
+ }
+
+ #lineFive {
+     font-size: 20px;
+     color: aquamarine;
+     font-family: 'Yellowtail', cursive;
+ }
+
+ #lineSix {
+     color: yellow;
+     font-size: 30px;
+ }
+#lineSeven{
+    font-size: 30px;
+    color: wheat;
+}
+
+#pool {
+    color: cornflowerblue;
+}
+
+#lineEight{
+     font-size: 30px;
+    color: greenyellow;
+}
+
+#lineNine{
+     font-size: 30px;
+    color: wheat;
+}
+
+#lineTen{
+     font-size: 20px;
+    color: greenyellow;
+    font-family: 'Yellowtail', cursive;
+}
+
+#lineEleven{
+     font-size: 30px;
+    color: darkorange;
+}
+
+#lineTwelve{
+     font-size: 30px;
+    color: wheat;
+}
+
+#lineThirteen{
+     font-size: 20px;
+    color: darkorange;
+    font-family: 'Yellowtail', cursive;
+}

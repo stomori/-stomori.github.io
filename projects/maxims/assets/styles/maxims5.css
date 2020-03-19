@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat Subrayada' ;
+    background-image: url(../imgs/maxim-five.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: aqua;
+}
+
+
+a:link {
+
+    text-decoration: none;
+    color: aqua;
+}
+
+a:visited {
+    color: aqua;
+}
+
+#nav {
+    text-decoration: none;
+
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 68px;
+    
+    /*
+    animation-name: slide right;
+    animation: 10s slide-right;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+*/
+
+}
+.slide-right {
+    animation-name: slide-right;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(-200vh);
+        
+    }
+
+    100% {
+        transform: translateX(0vh);
+    
+    }
+
+}
+
+.nav-tem {
+    color: aqua;
+}
+
+#current-nav-item {
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#current-page {
+
+    color: yellow;
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

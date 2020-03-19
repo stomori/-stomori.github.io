@@ -1,0 +1,90 @@
+body {
+	background: #cccccc;
+}
+
+/* do NOT modify the canvas */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+/* modify the assets below */ 
+
+#triangle {
+	width: 5px;
+	height: 0;
+    transform: skew(10deg);
+	border-left: 20px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 200px solid #FFEDAD;
+	position: absolute;
+	top: 200px;
+	left: 325px;
+}
+
+#square {
+	width: 110px;
+	height: 250px;
+	background: #364F99;
+	top: 150px;
+	left: 600px;
+	position: absolute;
+    border-radius: 10px;
+}
+
+#circle {
+	width: 65px;
+	height: 65px;
+	background: #FF4B85;
+	border-radius: 65px;
+	top: 8px;
+	left: 590px;
+	position: absolute;
+}
+
+#squaretwo {
+	width: 900px;
+	height: 156px;
+	background: #FFD036;
+	top: 400px;
+/*	left: 350px;*/
+	position: absolute;
+}
+
+#lid {
+	width: 90px;
+	height: 22px;
+	background: grey;
+	top: 129px;
+	left: 612px;
+	position: absolute;
+    border-radius: 5px;
+    
+}
+
+    #bookcover {
+    width: 200px;
+    height: 200px;
+    transform: skew(10deg);
+    background: #9A8746;
+    top: 200px;
+	left: 345px;
+    position: absolute;
+    }
+
+#secondcover {
+	width: 2px;
+	height: 0;
+    transform: skew(10deg);
+	border-left: 20px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 200px solid #FFEDAD;
+	position: absolute;
+	top: 200px;
+	left: 325px;
+}
+/*    #85743C darker book cover*/

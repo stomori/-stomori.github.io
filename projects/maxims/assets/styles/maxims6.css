@@ -1,0 +1,85 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    font-family: 'El Messiri' ;
+    background-image: url(../imgs/maxim-six.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: lightgoldenrodyellow;
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:lightgoldenrodyellow;
+}
+
+a:visited{
+    color: lightgoldenrodyellow;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 10px;
+    animation-name: expand;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+.nav-tem{
+    color: aqua;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: black;
+}
+
+#current-page{
+    
+    color: black;
+}
+
+@keyframes expand {
+
+    0% {
+        font-size: 0em;
+
+    }
+
+    100% {
+
+        font-size: 5em;
+    }
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

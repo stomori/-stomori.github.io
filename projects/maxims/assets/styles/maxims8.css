@@ -1,0 +1,110 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    font-family: 'Rubik Mono One' ;
+    background-image: url(../imgs/maxim-eight.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: palevioletred;
+
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:palevioletred;
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+.nav-tem{
+    color: palevioletred;
+}
+
+#current-nav-item{
+    color: #0B0B0D;
+}
+
+a:hover {
+    color: white;
+}
+
+#current-page{
+    
+    color: white;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#yeah {
+   
+    color: palevioletred;
+    font-size: 300px;
+    animation-name: expand;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes expand {
+
+    0% {
+        font-size: 0em;
+
+    }
+
+    100% {
+
+        font-size: 2.5em;
+    }
+
+
+@keyframes rotate {
+
+    0% {
+        transform: rotateY(200deg)
+
+    }
+
+    100% {
+
+       
+    }
+    
