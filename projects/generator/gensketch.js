@@ -13,10 +13,10 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   colorMode(HSB,100);
   //store objects in variables C(xpos,ypos,diameter)
-  c = new C(random(windowWidth/2), random(windowHeight/2), random(25,100));
-  cb = new C(random(windowWidth/2), random(windowHeight/2), random(50,75));
-  cc = new C(random(windowWidth/2), random(windowHeight/2), random(75,50));
-  cd = new C(random(windowWidth/2), random(windowHeight/2), random(100,25));
+  c = new C(random(100,windowWidth-100), random(100,windowHeight-100), random(25,100));
+  cb = new C(random(100,windowWidth-100), random(100,windowHeight-100), random(50,75));
+  cc = new C(random(100,windowWidth-100), random(100,windowHeight-100), random(75,50));
+  cd = new C(random(100,windowWidth-100), random(100,windowHeight-100), random(100,25));
   
   
    lCol = random(100);
