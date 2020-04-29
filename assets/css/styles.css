@@ -122,8 +122,6 @@ body-one {
     opacity: 1;
 }
 
-/*This next line says that when you hover on the container, change the item with a class of image*/
-
 .container:hover .image {
     opacity: 0;
 }
@@ -136,6 +134,6 @@ body-one {
     color:blue
 }
 
-green {
+#green {
     color:green
 }
