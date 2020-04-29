@@ -63,7 +63,7 @@ function setup() {
     let mapLatP = map(latP[i], minLat, maxLat, height, 0);
      
     fill("blue"); 
-    ellipse(mapLngP, mapLatP, 1);
+    ellipse(mapLngP, mapLatP, 3);
   } 
   
   
