@@ -8,7 +8,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   background(255);
 
   let numRows = data.getRowCount();
@@ -63,7 +63,7 @@ function setup() {
     let mapLatP = map(latP[i], minLat, maxLat, height, 0);
      
     fill("blue"); 
-    ellipse(mapLngP, mapLatP, 5);
+    ellipse(mapLngP, mapLatP, 1);
   } 
   
   
