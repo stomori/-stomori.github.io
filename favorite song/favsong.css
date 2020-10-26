@@ -1,0 +1,165 @@
+#container {
+    width: 75%;
+    margin: 0 auto;
+    line-height: normal;
+} 
+
+{margin: 0px;
+padding: 0px;}
+
+#verses {
+    background-color: #911B06;
+    text-align: center;
+    letter-spacing: normal;
+    color: ghostwhite;
+}
+p {
+    max-width: 900px;
+    min-width: inherit;
+    max-height: none;
+    min-height: inherit;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    color: ;
+} 
+
+#chorus {
+   border:  ;
+    border-radius: ;
+    text-align: center;
+    letter-spacing: normal;
+    color: ghostwhite;
+}
+p {
+    max-width: 900px;
+    min-width: inherit;
+    max-height: none;
+    min-height: inherit;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+} 
+
+p.round {
+  border: 2px solid #911B06;
+  border-radius: 5px;
+}
+
+body {
+font-family: capitol, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 22;
+line-height: normal;
+letter-spacing: normal;
+background-image: url("hiiapl/maxim-background.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+color: whitesmoke;
+}
+
+
+a:link{
+    
+    text-decoration: none;
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
+#nav{
+text-decoration: none;
+
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+h1 {
+    max-width: 900px;
+    font-family: 'Staatliches';
+    font-size: 30px;
+    color: #911B06;
+    animation-name: expand;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+    h2 {
+    font-family: 'Staatliches';
+    font-size: 30px;
+    color: white;
+}
+   
+
+
+
+.nav-tem{
+    font-family: 'Staatliches';
+    color: white;
+}
+
+#current-nav-item{
+    color: white;
+}
+
+a:hover {
+    color: #911B06;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active { 
+    color: #911B06;
+}
+
+@keyframes expand {
+
+    0% {
+        font-size: .5em;
+
+    }
+
+    8% {
+
+        font-size: 1.5em;
+    }
+
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+/*
+z-index:;
+z-index:;
+z-index:;
+@keyframes
+@keyframes
+animation-name:;
+animation-name:;
+animation:;
+::selection {}
+*/
