@@ -108,6 +108,13 @@ h6 {
     text-align: center;
 }
 
+.club {
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+
 /*
 .container {
     position: relative;  since we want to absolute position the label, the outside container has to be set to position:relative 
